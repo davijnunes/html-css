@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 350px;
+            border-collapse: collapse;
+            
+        }
+        thead {
+            background-color: darkgray;    
+        }
+        th,td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1>Criando Tabelas</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2">Àrea</th>
+                <th rowspan="2">Disciplinas</th>
+                <th scope="rowgroup" colspan="2">Notas</th>
+                <th rowspan="2">Média</th>
+                <tr>
+                    <td>Nota1</td>
+                    <td>Nota2</td>
+                </tr>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="rowgroup" rowspan="4">Exatas</th>
+                    <td>Matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+            </tr>
+            
+                    <tr>
+                        <td>Física</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                    </tr>
+                    <tr>
+                        <td>Química</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                    </tr>
+                    <tr>
+                        <td>Biologia</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                        <td>0.0</td>
+                    </tr>
+            <tr>
+                <td style="background-color: darkgray;" colspan="4">Média de exatas</td>
+                <td style="background-color: darkgray;">0.0</td>
+            </tr>
+            <tr>
+                <th scope="rowgroup" rowspan="2">Humanas</th>
+                <td>Historia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td style="background-color: darkgray;" colspan="4">Média de humanas</td>
+                <td style="background-color: darkgray;">0.0</td>
+            </tr>
+
+        </tbody>
+    </table>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com iframe</title>
+    <style>
+        iframe {
+            display: block;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+            border-radius: 15px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com iframes externos</h1>
+    <iframe src="https://www.cursoemvideo.com/curso/curso-de-ingles-para-iniciantes-modulo-1-beginners-gratis-e-completo/aulas/modulo-01-10/modulos/como-se-apresentar-em-ingles/" frameborder="0">
+        <p>
+            Seu navegador não e compativel
+        </p>
+    </iframe>
+
+    <h1>Trabalhando com iframes internos</h1>
+
+    <iframe src="./pagina001.html" frameborder="0">
+        <p>
+            Seu navegador não é compativel
+        </p>
+    </iframe>
+
+
+    <h1>Trabalhando com conteúdo dinamico</h1>
+
+    <iframe srcdoc="<h2> Contéudo dinamico </h2>" frameborder="0">
+        <p>
+            Seu navegador não é compativel
+        </p>
+    </iframe>
+
+    <h1>Trabalhando com navegações</h1>
+
+    
+        <ul>
+            <a href="pag003.html" target="quadro">Página três</a>
+        </ul>
+
+    <iframe name="quadro" frameborder="0">
+        <p>
+            Seu nevegador não é compativel
+        </p>
+    </iframe>
+    
+</body>
+</html>

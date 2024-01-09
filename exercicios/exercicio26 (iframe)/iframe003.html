@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Trabalhando com iframe
+    </title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        iframe > p {
+            font-size: 1.5em;
+        }
+        iframe {
+            display: block;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            width: 500px;
+            height: 500px;
+            border: 3px solid black;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com iframe externo</h1>
+    
+    <iframe src="https://www.cursoemvideo.com/curso/curso-de-ingles-para-iniciantes-modulo-1-beginners-gratis-e-completo/aulas/modulo-01-10/modulos/como-se-apresentar-em-ingles/" frameborder="0">
+        <p>
+            Seu navegador não é compativel
+        </p>
+    </iframe>
+    
+    <h1>Trabalhando com iframe interno</h1>
+
+    <iframe src="../exercicio25 (tabelas)/tabela.html" frameborder="0">
+        <p> Seu navegador não é compativel</p>
+    </iframe>
+
+    <h1>Gerando contéudo em iframes</h1>
+
+    <iframe srcdoc="<p> Gerando conteúdo em iframes</P>" frameborder="0"></iframe>
+    
+</body>
+</html>

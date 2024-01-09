@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+/* Medidas absolutas: - Medidas Relativas:
+px, pt, in, pc,cm, mm - rem,em,ex, vh, vw % */
+
+p{
+    font: italic bold 1em Arial, Helvetica, sans-serif; /* Shorthand, resumindo configurações css */
+
+}
+
+h1, h2{
+    font: normal bolder 2.5em Arial, Helvetica, sans-serif;
+}

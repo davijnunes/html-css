@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body{
+    background-color: white;
+}
+h1{
+    color:#3D00E6;
+}
+h2{
+    color:#AB9D00;
+}
+#titulo-principal{
+    text-align: center;
+    color: white;
+    background-color: #3D00E6;
+}
+h3{
+    color: #4A3091;
+}
+.topico-html{
+    background-color: #DBD46D;
+    font: italic bolder 1.5em serif;
+}
+.topico-css{
+    background-color: #6843CC;
+    font: italic bolder 1.5em serif
+}
+.topico-alinhamentos{
+    text-align: left;
+}

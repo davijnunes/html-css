@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com imagens flexiveis</title>
+</head>
+<body>
+    <h1>Imagens flexiveis</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="./imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="./imagens/m.png" type="image/png">
+        <img src="./imagens/g.png" alt="Imagem Grande">
+        <!--Max- width <- quando chegar a essa especifica largura será carregada as imagens -->
+    </picture>
+    <h1>Àudios</h1>
+    <p>
+        Vamos aprender a reproduzir Àudios em HTML5
+    </p>
+    <audio preload="metadata" controls autoplay loop >
+        <source src="midias/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midias/guanacast-33.wav" type="audio/wav">
+        <source src="midias/guanacast-33.mp3" type="audio/ogg">
+        <p>
+            Infelizmente seu navegador não consegue suportar  áudios, <a href="midias/guanacast-33.mp3" download="guanacast-33.mp3" type="audio/mpeg">clique aqui para baixar o arquivo</a>
+        </p>
+    </audio>
+    
+    <!-- MP3, OGV, WAV-->    
+</body>
+</html>

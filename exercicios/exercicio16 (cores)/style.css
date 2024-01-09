@@ -1,0 +1,30 @@
+@charset "UTF-8"; /* Mapa de caracteres para não dar erro no CSS */
+
+*{
+    font-family: Arial, Helvetica, sans-serif;  /* Mudando a fonte do seu site */
+    /*height: 100%;*/
+}
+body{
+    background-image: linear-gradient(to right, #4A1AEB,#EABE19);
+}
+main{
+    background-color: #fff;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #1c085f;
+}
+p{
+    text-align: justify;
+}
+h1{
+    color: #4B416B;
+    text-align: center;
+    text-shadow: 1px 1px 0px rgba(43, 3, 3, 0.418);
+
+}
+h2{
+    color: #6B6241;
+
+}

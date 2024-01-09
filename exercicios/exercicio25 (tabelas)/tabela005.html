@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1 {
+            font-variant: small-caps;
+        }
+        
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption {
+            border: 1px solid rgba(0, 0, 0, 0.849);
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+            font-size: 1.5em;
+        }
+        thead {
+            background-color: #000000c7;
+            color: #fff;;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: darkgray;
+        }
+       
+    </style>
+</head>
+<body>
+    <h1>Trabalhado com tabelas</h1>
+    <table>
+        <caption>Tabela do cblol</caption>
+        <thead>
+            <tr>
+                <th scope="col">Times</th>
+                <th scope="col">Titulos</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Pain Gaming</td>
+            <td> Três titulos</td>
+        </tr>
+        <tr>
+            <td>Intz Gaming</td>
+            <td>Cinco títulos</td>
+        </tr>
+        <tr>
+            <td>Kabum</td>
+            <td>Quatro títulos</td>
+        </tr>
+        <tr>
+            <td>Los Grande</td>
+            <td>Zero títulos</td>
+        </tr>
+        <tr>
+            <td>Red Canids</td>
+            <td>Três titulos</td>
+        </tr>
+        <tr>
+            <td>Loud</td>
+            <td>Três titulos</td>
+        </tr>
+        <tr>
+            <td>Liberty</td>
+            <td>Zero títulos</td>
+        </tr>
+        <tr>
+            <td>Vivo keyd</td>
+            <td>Um título</td>
+        </tr>
+        <tr>
+            <td>Fluxo</td>
+            <td>Zero títulos</td>
+        </tr>
+
+        </tbody>
+        <tfoot>
+            <th scope="row">Jogador com mais títulos</th>
+            <td>Felipe Gonçalves</td>
+
+        </tfoot>
+    </table>
+    
+</body>
+</html>

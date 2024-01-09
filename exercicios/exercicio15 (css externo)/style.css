@@ -1,0 +1,18 @@
+/* Mapa de caracteres */
+
+@charset "utf8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+}
+h2{
+    color: green;
+}
+blockquote{
+    font-family: Arial, Helvetica, sans-serif;
+}

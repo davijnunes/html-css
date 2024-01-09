@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de formulário</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        input {
+            border-radius: 5px;
+        }
+        input.botao:hover {
+            color: darkred;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <form action="cadastro.py" method="get">
+        <p>
+          <label for="isu">Usuário:</label> <input type="text" name="fusu" id="isu" required minlength="5" maxlength="16" size="16" placeholder="Digite até 15 caracteres" autocomplete="username">
+        </p>
+        <p>
+            <label for="isen">Senha: </label><input type="password" name="fsen" id="isen" required minlength="8" maxlength="20" size="20" placeholder="Digite até 20 caracteres" autocomplete="current-password">
+        </p>
+        <p>
+            <input class="botao" type="submit" value="Enviar">
+            <input class="botao" type="reset" value="Resetar">
+        </p>
+    </form>
+    
+    
+</body>
+</html>
